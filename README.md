@@ -169,12 +169,5 @@ The output will be saved in:
 result.txt
 ```
 
-## Note
-
-The main loop should preferably be written as:
-
-```cpp
-for(int s = 0; s < 1200; s++)
-```
-
-because the code writes to `_p[s + 1]`, and `_p` has size 1201.
+## Next
+Probably Neverness to Everness because it's a rolling dices gacha with different probability distribution peaks.
